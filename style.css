@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.container {
+    height: 400px;
+    width: 325px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    position: relative;
+    margin: 10% 40%;
+    box-shadow: 6px 6px rgb(94, 93, 93);
+    background-color: #f0f8ff;
+}
+
+.parent {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+}
+
+.parent img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.child h3 {
+    padding-left: 10px;
+    padding-top: 35px;
+    font-size: xx-large;
+}
+
+.child p {
+    padding-left: 10px;
+    padding-top: 20px;
+    line-height: 1.3rem;
+    font-weight: lighter;
+    color: #494949;
+}
